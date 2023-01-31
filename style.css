@@ -6,6 +6,177 @@ figure {
     margin: 0;
 }
 
+.header-page {
+    display: flex;
+    flex-direction: column;
+    margin: 2rem;
+    gap: 2rem;
+}
+
+/*------------------nav bar----------------*/
+
+.header-page .navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-page .navbar h1 {
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 53px;
+    color: #333333;
+}
+
+.header-page .navbar .menu {
+    list-style: none;
+    gap: 3rem;
+    position: relative;
+    top: 0.5rem;
+}
+
+.header-page .navbar .menu .item{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    float: left;
+}
+
+.header-page .navbar .menu .item a { 
+    color: #333333;
+    text-decoration: none;
+    padding: 1.5rem;
+}
+
+.header-page .navbar .menu .item a:hover {
+    color: rgb(223, 158, 20);
+}
+
+/*------------------------home-page----------------------*/
+
+.header-page .home-page {
+    margin-top: 4rem;
+}
+
+.header-page .home-page .hero-section h2 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #2D9CDB;
+}
+
+.header-page .home-page .hero-section a {
+    text-decoration: none;
+    color: #2D9CDB;
+}
+
+.header-page .home-page .hero-section h3,
+.header-page .home-page .page-info h3 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 72px;
+    color: #333333;
+}
+
+.header-page .home-page .hero-section h3 {
+    width: 45%;
+    margin-top: 0.75rem;
+    margin-bottom: 3rem;
+}
+
+.header-page .home-page .hero-section h2,
+.header-page .home-page .hero-section h3{
+    margin-left: 13rem;
+}
+
+.header-page .home-page .hero-section .hero-img {
+    margin-bottom: 3rem;
+}
+
+.header-page .home-page .hero-section .hero-img img{
+    width: 94vw;
+    height: 53vh;
+    border-radius: 18px;
+}
+
+/*----------------------page info----------------*/
+
+
+.header-page .home-page .page-info p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #4F4F4F;
+    width: 30%;
+    margin-top: 1.5rem;
+}
+
+
+
+.header-page .home-page .page-info h3,
+.header-page .home-page .page-info p {
+    width: 30%;
+    margin-left: 13rem;
+}
+
+.header-page .home-page .contact-section p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #828282;
+    margin-top: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.header-page .home-page .contact-section {
+    margin-left: 13rem;
+}
+
+.header-page .home-page .contact-section .contact-form input{
+    width: 350px;
+    height: 57px;
+    background-color: #F2F2F2;
+    color: #BDBDBD;
+    padding-left: 1.5rem;
+    border: none;
+}
+
+.header-page .home-page .contact-section .contact-form input,
+.header-page .home-page .contact-section .contact-form button {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    border: none;
+    border-radius: 12px;
+}
+
+.header-page .home-page .contact-section .contact-form button {
+    width: 94px;
+    height: 49px;
+    background-color: #2D9CDB;
+    color: #F2F2F2;
+    position: relative;
+    right: 6.375rem;
+}
+
+.header-page .home-page .contact-section .contact-form button:hover {
+    background-color: #2275a5;
+}
+
+
 
 .created-by{
     display: flex;
@@ -27,5 +198,3 @@ figure {
 .created-by a:hover {
     color: aquamarine;
 }
-
-/*icons name: storage, menu, arrow_forward_ios, arrow_back_ios, edit*/
