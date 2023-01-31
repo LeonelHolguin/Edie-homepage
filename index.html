@@ -6,8 +6,187 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 <body>
-    
+    <header class="header-page">
+        <nav class="navbar">
+            <h1>Edie</h1>
+            <ul class="menu">
+                <li class="item"><a href="#home">Home</a></li>
+                <li class="item"><a href="#services">Services</a></li>
+                <li class="item"><a href="#our-works">Our Works</a></li>
+                <li class="item"><a href="#clients">Clients</a></li>
+                <li class="item"><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+
+        <section id="home" class="home-page">
+            <div class="hero-section">
+                <h2><a href="#contact">Unhappy with your website?</a></h2>
+                <h3>We create beautiful and fast web services</h3>
+                <figure> <img src="/src/heroImage.jpg" alt="Our team image"></figure>
+            </div>
+        </section>
+        
+        <section class="page-info">
+            <h3>Story, emotion and purpose</h3>
+            <p>We help transform your ideas into real world applications that will outperform your toughest 
+                competition and help you achieve your strategic goals in short period of time.</p>
+            
+            <div class="contact-form">  
+                <p>Want us to contact you?</p>   
+                <form action="#" class="contact-form">
+                        <input type="text" placeholder="Email" required>
+                        <button type="submit">Join</button>
+                </form>
+            </div>  
+        </section>
+    </header>
+    <main class="contents">
+        <section id="services" class="services">
+            <h2>We offer high demand services</h2>
+
+            <article class="service-container">
+                <div class="services-icon">
+                    <span class="material-icons ui/ux">edit</span>
+                </div>
+                <div class="service-info">
+                    <h4>UI/UX Design</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                        Duis a metus ac nulla consequat aliquet id quis turpis.</p>
+                </div>
+                <button>Get started</button>
+            </article>
+
+            <article class="service-container">
+                <div class="services-icon">
+                    <span class="material-icons front-end">arrow_back_ios</span>
+                    <span class="material-icons front-end">arrow_forward_ios</span>
+                </div>
+                <div class="service-info">
+                    <h4>UI/UX Design</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                        Duis a metus ac nulla consequat aliquet id quis turpis.</p>
+                </div>
+                <button>Get started</button>
+            </article>
+
+            <article class="service-container">
+                <div class="services-icon">
+                    <span class="material-icons backend">storage</span>
+                </div>
+                <div class="service-info">
+                    <h4>UI/UX Design</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                        Duis a metus ac nulla consequat aliquet id quis turpis.</p>
+                </div>
+                <button>Get started</button>
+            </article>
+        </section>
+
+        <section id="our-works" class="our-works">
+            <h3>Good design means good business</h3>
+
+            <div class="our-works-container">
+                <article class="designs">
+                    <img src="/src/smarthome.jpg" alt="An image about smart home design">
+                    <h4>Full stack application</h4>
+                    <p>Smart home dashboard</p>
+                </article>
+                <article class="designs">
+                    <img src="/src/onboard.png" alt="An image about onboard application">
+                    <h4>UX/UI design</h4>
+                    <p>Onboard application</p>
+                </article>
+                <article class="designs">
+                    <img src="/src/booking.png" alt="An image about design of booking system">
+                    <h4>Mobile application</h4>
+                    <p>Booking system</p>
+                </article>
+                <article class="designs">
+                    <img src="/src/juice-product.png" alt="An image about design of juice product homepage">
+                    <h4>Front End applicati on</h4>
+                    <p>Juice product homepage</p>
+                </article>
+            </div>
+
+            <a href="#">see more <span class="material-icons see-more-icon">trending_flat</span></a>
+        </section>
+
+        <section id="clients" class="clients">
+            <div class="clients-description">
+                <h3></h3>
+                <h4></h4>
+                <p></p>
+            </div>
+            <div class="clients-photos">
+                <figure class="photos-container">
+                    <img src="/src/person1.png" alt="An image about our clients">
+                </figure>
+                <figure class="photos-container">
+                    <img src="/src/person2.png" alt="An image about our clients">
+                </figure>
+                <figure class="photos-container">
+                    <img src="/src/person3.png" alt="An image about our clients">
+                </figure>
+            </div>
+        </section>
+
+        <section class="leader-phrase">
+            <h2>“Fast and outstanding resutls. Edie understands their customer’s needs. They have a young and talented team.”</h2>
+            
+            <div class="leader-card">
+                <figure class="card-img">
+                    <img src="/src/person4.png" alt="An image about our leader">
+                </figure>
+
+                <div class="card-info">
+                    <h3>Carlos Tran</h3>
+                    <p>The Decorate Gatsby</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer id="contact" class="contact-page">
+            <nav class="footer-navbar">
+                <ul class="footer-menu">
+                    <li class="item"><a href="#home">Home</a></li>
+                    <li class="item"><a href="#services">Services</a></li>
+                    <li class="item"><a href="#our-works">Our Works</a></li>
+                    <li class="item"><a href="#clients">Clients</a></li>
+                    <li class="item"><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+
+        <section class="social-media">
+            <h3>Edie</h3>
+            <div class="svg">
+                <img src="/svg/instagram.svg" alt="">
+                <img src="/svg/linkedin.svg" alt="">
+                <img src="/svg/twitter.svg" alt="">
+            </div>
+        </section>
+
+        <section class="contact-form">  
+            <p>Want us to contact you?</p>   
+            <form action="#" class="contact-form">
+                    <input type="text" placeholder="Email" required>
+                    <button type="submit">Join</button>
+            </form>
+        </section>
+
+        <section class="created-by">
+            <p>created by 
+                <a href="https://devchallenges.io/portfolio/LeonelHolguin" target="_blank" rel="noopener noreferrer">
+                <strong><u>LeonelHolguin</u></strong>
+                </a>
+                 - 
+                <a href="https://devchallenges.io/" rel="noopener noreferrer">
+                devChallenges.io
+                </a>
+            </p>
+        </section>
+    </footer>
 </body>
 </html>
