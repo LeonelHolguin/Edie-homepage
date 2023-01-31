@@ -1,11 +1,3 @@
-* {
-    margin: 0;
-}
-
-figure {
-    margin: 0;
-}
-
 .header-page {
     display: flex;
     flex-direction: column;
@@ -174,27 +166,4 @@ figure {
 
 .header-page .home-page .contact-section .contact-form button:hover {
     background-color: #2275a5;
-}
-
-
-
-.created-by{
-    display: flex;
-    justify-content: center;
-    font-family: 'Montserrat', sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 0.875rem;
-    line-height: 1.063rem;
-    color: #A9A9A9;
-    margin-top: 5rem;
-}
-
-.created-by a {
-    text-decoration: none;
-    color: #A9A9A9;
-}
-
-.created-by a:hover {
-    color: aquamarine;
 }

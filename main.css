@@ -1,0 +1,11 @@
+@import url(/styles/header.css);
+@import url(/styles/footer.css);
+
+* {
+    margin: 0;
+}
+
+figure {
+    margin: 0;
+}
+
