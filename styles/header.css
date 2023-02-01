@@ -45,6 +45,8 @@
 
 .header-page .navbar .menu .item a:hover {
     color: rgb(223, 158, 20);
+    cursor: pointer;
+
 }
 
 /*------------------------home-page----------------------*/
@@ -111,8 +113,6 @@
     width: 30%;
     margin-top: 1.5rem;
 }
-
-
 
 .header-page .home-page .page-info h3,
 .header-page .home-page .page-info p {
