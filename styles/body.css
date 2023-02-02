@@ -3,20 +3,18 @@
     margin-left: 10%;
 }
 
-/*--------------------Services--------------------------*/
-
-.contents .services {
-    margin-bottom: 10%;
-
-}
-
-.contents .services h2 {
+.contents .tittle {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 500;
     font-size: 36px;
     line-height: 54px;
     color: #333333;
+}
+
+/*--------------------Services--------------------------*/
+
+.contents .services .tittle {
     width: 30%;
     /*400px*/
 }
@@ -124,3 +122,139 @@
 }
 
 /*-----------------------Our Works-----------------------*/
+
+.contents .our-works {
+    margin-top: 10%;
+}
+
+.contents .our-works .tittle{
+    width: 35%;
+}
+
+.contents .our-works .our-works-container {
+    display: grid;
+    width: 50vw;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 20px;
+    margin-top: 34px;
+}
+
+.contents .our-works .our-works-container .designs:nth-child(2n-1) {
+    margin-top: 170px;
+}
+
+.contents .our-works .our-works-container .designs img{
+    width: 545px;
+    height: 545px;
+    border-radius: 12px;
+}
+
+.contents .our-works .our-works-container .designs h4 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 21px;
+    color: #828282;
+    margin-top: 10px;
+}
+
+.contents .our-works .our-works-container .designs p, 
+.contents .our-works a {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #333333;
+    margin-top: 10px;
+}
+
+
+.contents .our-works .see-more{
+    text-align: right;
+    position: relative;
+    right: 110px;
+    bottom: 33px;
+}
+
+.contents .our-works .see-more a {
+    color: #2D9CDB;
+    text-decoration: none;
+    
+}
+
+.contents .our-works .see-more .see-more-icon {
+    font-size: 1rem;
+}
+
+/*-----------------------clients-----------------------*/
+
+.contents .clients {
+    margin-top: 20%;
+    display: flex;
+}
+
+.contents .clients .clients-description {
+    width: 25%;
+    margin-top: 120px;
+}
+
+.contents .clients .clients-description h3{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #EB5757;
+    margin-bottom: 10px;
+
+}
+
+.contents .clients .clients-description p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #4F4F4F;
+    margin-top: 10px;
+}
+
+.contents .clients .clients-photos {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas: 
+    "side right"
+    "side bottom";
+    gap: 24px;
+    margin-left: 13%;
+}
+
+.contents .clients .clients-photos .top1 {
+    grid-area: right;
+}
+
+.contents .clients .clients-photos .top2 {
+    grid-area: side;
+}
+
+.contents .clients .clients-photos .bottom {
+    grid-area: bottom;
+}
+
+.contents .clients .clients-photos .photos-container img{
+    border-radius: 24px;
+}
+
+.contents .clients .clients-photos .photos-container:nth-child(2n-2) {
+    margin-top: 120px;
+}
+
+.contents .clients .clients-photos .bottom {
+   margin-top: -20px;
+}
+
+/*-------------------leader-phrase---------------------*/
