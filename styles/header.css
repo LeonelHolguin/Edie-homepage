@@ -46,7 +46,6 @@
 .header-page .navbar .menu .item a:hover {
     color: rgb(223, 158, 20);
     cursor: pointer;
-
 }
 
 /*------------------------home-page----------------------*/
@@ -165,5 +164,7 @@
 }
 
 .header-page .home-page .contact-section .contact-form button:hover {
-    background-color: #2275a5;
+    background-color: #247eb3;
+    color: #FFFFFF;
+    cursor: pointer;
 }
