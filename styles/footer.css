@@ -1,16 +1,130 @@
+.contact-page {
+    padding-top: 3%;
+    margin-top: 10%;
+    background-color: #100E1D;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+}
+
+.contact-page .contents {
+    display: flex;
+    margin-top: 0;
+    margin-left: 7%;
+}
+
+/*--------------------footer navbar-----------------*/
+
+
+.contact-page .contents .footer-navbar .footer-menu{
+    list-style: none;
+}
+
+.contact-page .contents .footer-navbar .footer-menu .item {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 200%;
+}
+
+.contact-page .contents .footer-navbar .footer-menu .item a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+/*--------------------Social media----------------*/
+
+.contact-page .contents .social-media {
+    margin-left: 17%;
+}
+
+.contact-page .contents .social-media h3 {
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 53px;
+    color: #F2F2F2;
+}
+
+.contact-page .contents .social-media .svg {
+    align-items: center;
+    margin-top: 8px;
+}
+
+.contact-page .contents .social-media .svg img:nth-child(2){
+    margin-left: 11px;
+}
+
+.contact-page .contents .social-media .svg img:nth-child(3) {
+    margin-left: 11px;
+}
+
+/*------------------contact section----------------*/
+
+.contact-page .contents .contact-section{
+    margin-left: 25%;
+}
+
+.contact-page .contents .contact-section p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #F2F2F2;
+    margin-bottom: 0.5rem;
+}
+
+.contact-page .contents .contact-section .contact-form input{
+    width: 350px;
+    height: 57px;
+    background-color: #F2F2F2;
+    color: #BDBDBD;
+    padding-left: 1.5rem;
+    border: none;
+}
+
+.contact-page .contents .contact-section .contact-form input,
+.contact-page .contents .contact-section .contact-form button {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    border: none;
+    border-radius: 12px;
+}
+
+.contact-page .contents .contact-section .contact-form button {
+    width: 94px;
+    height: 49px;
+    background-color: #2D9CDB;
+    color: #F2F2F2;
+    position: relative;
+    right: 6.375rem;
+}
+
+.contact-page .contents .contact-section .contact-form button:hover {
+    background-color: #247eb3;
+    color: #FFFFFF;
+    cursor: pointer;
+}
 
 /*-----------------created by----------------------*/
 
 .created-by{
     display: flex;
     justify-content: center;
+    align-items: center;
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 0.875rem;
     line-height: 1.063rem;
     color: #A9A9A9;
-    margin-top: 5rem;
+    margin-top: 150px;
 }
 
 .created-by a {
