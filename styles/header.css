@@ -21,6 +21,14 @@
     color: #333333;
 }
 
+.header-page .navbar .button-open {
+    display: none;
+}
+
+.header-page .navbar .button-close {
+    display: none;
+}
+
 .header-page .navbar .menu {
     list-style: none;
     gap: 3rem;
@@ -167,4 +175,79 @@
     background-color: #247eb3;
     color: #FFFFFF;
     cursor: pointer;
+}
+
+@media(max-width: 885px) {
+    .header-page {
+        margin: 15px;
+        gap: 0;
+    }
+
+    .header-page .navbar {
+        width: 100%;
+    }
+
+    .header-page .navbar h1 {
+        font-size: 24px;
+        line-height: 35px;
+    }
+
+    .header-page .navbar .button-open {
+        display: block;
+        border: none;
+        background-color: transparent;
+    }
+
+    .header-page .navbar .button-close {
+        background-color: transparent;
+        border: none;
+        color: #F2F2F2;
+    }
+
+    .header-page .navbar .hidden {
+        display: none;
+    }
+
+    .header-page .navbar .show {
+        display: block;
+        position: relative;
+        z-index: 2;
+    }
+
+    .header-page .navbar .disabled {
+        display: none;
+    }
+
+    .header-page .navbar .active  {
+        width: 100%;
+        display: flex;
+        position: absolute;
+        list-style: none;
+        flex-direction: column;
+        background-color: #333333;
+        align-items: center;
+        justify-content: center;
+        gap: 0;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .header-page .navbar .menu .item{
+        font-size: 20px;
+        margin-top: 60px;
+    }
+
+    .header-page .navbar .menu .item a {
+        color: #F2F2F2;
+    }
+
+    .header-page .navbar .menu .item a:hover {
+        color: #F2F2F2;
+    }
+
+    .header-page .navbar .menu .item:nth-child(5) {
+        margin-bottom: 50px;
+    }
+    
+    /*--------------nar v*/
 }

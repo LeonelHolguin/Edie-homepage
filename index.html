@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Edie</title>
     <link rel="stylesheet" href="/main.css">
+    <script src="./main.js" type="module" defer></script>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,12 +16,21 @@
     <header class="header-page">
         <nav class="navbar">
             <h1>Edie</h1>
-            <ul class="menu">
-                <li class="item"><a href="#home">Home</a></li>
-                <li class="item"><a href="#services">Services</a></li>
-                <li class="item"><a href="#our-works">Our Works</a></li>
-                <li class="item"><a href="#clients">Clients</a></li>
-                <li class="item"><a href="#contact">Contact</a></li>
+
+            <button class="button-open">
+                <span class="material-icons open-icon">menu</span>
+            </button>
+
+            <button class="button-close .hidden">
+                <span class="material-icons close-icon">close</span>
+            </button>
+            <!-- close -->
+            <ul class="menu disabled">
+                <li class="item"><a class="access" href="#home">Home</a></li>
+                <li class="item"><a class="access" href="#services">Services</a></li>
+                <li class="item"><a class="access" href="#our-works">Our Works</a></li>
+                <li class="item"><a class="access" href="#clients">Clients</a></li>
+                <li class="item"><a class="access" href="#contact">Contact</a></li>
             </ul>
         </nav>
 
