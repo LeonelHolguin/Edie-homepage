@@ -258,3 +258,45 @@
 }
 
 /*-------------------leader-phrase---------------------*/
+
+.contents .leader-phrase {
+    margin-top: 20%;
+}
+
+.contents .leader-phrase .tittle {
+    width: 75%;
+}
+
+.contents .leader-phrase .leader-card {
+    display: flex;
+    margin-top: 45px;
+    gap: 30px;
+}
+
+.contents .leader-phrase .leader-card .card-img  img{
+    width: 82px;
+    height: 82px;
+    border-radius: 12px;
+}
+
+.contents .leader-phrase .leader-card .card-info h3,
+.contents .leader-phrase .leader-card .card-info p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    position: relative;
+}
+
+.contents .leader-phrase .leader-card .card-info h3 {
+    font-size: 24px;
+    line-height: 36px;
+    color: #333333;
+    top: 8px;
+}
+
+.contents .leader-phrase .leader-card .card-info p {
+    font-size: 18px;
+    line-height: 27px;
+    color: #828282;
+    top: 18px;
+}
