@@ -133,7 +133,7 @@
 
 .contents .our-works .our-works-container {
     display: grid;
-    width: 50vw;
+    width: 80vw;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
     gap: 20px;
@@ -145,8 +145,8 @@
 }
 
 .contents .our-works .our-works-container .designs img{
-    width: 545px;
-    height: 545px;
+    width: 101%;
+    height: 84vh;
     border-radius: 12px;
 }
 
@@ -299,4 +299,194 @@
     line-height: 27px;
     color: #828282;
     top: 18px;
+}
+
+/*------------------MEADIA QUERIES----------------*/
+
+@media(max-width: 767px) {
+    .contents {
+        margin-top: 15%;
+        margin-left: 3.5%;
+    }
+    
+    .contents .tittle {
+        font-size: 24px;
+        line-height: 36px;
+        
+    }
+    
+    /*--------------------Services--------------------------*/
+    
+    .contents .services .tittle {
+        width: 70%;
+        margin-left: 10%;
+        /*400px*/
+    }
+    
+    .contents .services .services-cardBoard {
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+    .contents .services .services-cardBoard .service-container .service-icon .element-arrow-left {
+        left: 8px;
+    }
+    
+    .contents .services .services-cardBoard .service-container .service-icon .element-arrow-right {
+        right: 8px;
+    }
+    
+    .contents .services .service-container .service-info {
+        margin-left: 34px;
+    }
+    
+    .contents .services .service-container .service-info h4{
+        font-size: 24px;
+        line-height: 36px;
+        margin-top: 30px;
+    }
+    
+    .contents .services .service-container .service-info p,
+    .contents .services .service-container button  {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    
+    .contents .services .service-container .service-info p {
+        font-weight: 400;
+        color: #4F4F4F;
+        margin-top: 24px;
+        width: 90%;
+    }
+    
+    .contents .services .service-container button {
+        width: 116px;
+        height: 42px;
+        margin-left: 34px;
+        margin-top: 30px;
+    }
+    
+    .contents .services .service-container button:hover {
+        background-color: #2D9CDB;
+        color: #FFFFFF;
+        cursor: pointer;
+    }
+    
+    /*-----------------------Our Works-----------------------*/
+    
+    .contents .our-works {
+        margin-top: 30%;
+    }
+    
+    .contents .our-works .tittle{
+        width: 80%;
+        margin-left: 10%;
+    }
+    
+    .contents .our-works .our-works-container {
+        width: 50vw;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(1, 1fr);
+        gap: 36px;
+    }
+    
+    .contents .our-works .our-works-container .designs:nth-child(2n-1) {
+        margin-top: 0;
+    }
+    
+    .contents .our-works .our-works-container .designs img{
+        width: 351px;
+        height: 351px;
+        border-radius: 12px;
+    }
+    
+    .contents .our-works .our-works-container .designs h4 {
+        font-size: 12px;
+        line-height: 18px;
+        margin-top: 5px;
+    }
+    
+    .contents .our-works .our-works-container .designs p, 
+    .contents .our-works a {
+        font-size: 18px;
+        line-height: 27px;
+        margin-top: 0px;
+    }
+    
+    
+    .contents .our-works .see-more{
+        text-align: left;
+        position: relative;
+        left: 0px;
+        bottom: 0px;
+        top: 35px;
+    }
+    
+    .contents .our-works .see-more a {
+        color: #2D9CDB;
+        text-decoration: none;
+        
+    }
+    
+    .contents .our-works .see-more .see-more-icon {
+        font-size: 1rem;
+        position: relative;
+        top: 3px;
+    }
+    
+    /*-----------------------clients-----------------------*/
+    
+    .contents .clients {
+        margin-top: 15%;
+        flex-direction: column;
+    }
+    
+    .contents .clients .clients-description {
+        width: 61.5%;
+        margin-top: 120px;
+    }
+    
+    
+    .contents .clients .clients-photos {
+        gap: 9px;
+        margin-left: 0%;
+        margin-top: 36px;
+    }
+
+    .contents .clients .clients-photos .top1 img{
+        width: 144.76px;
+        height: 144.76px;
+    }
+    
+    .contents .clients .clients-photos .top2 img{
+        width: 178.16px;
+        height: 178.16px;
+    }
+    
+    .contents .clients .clients-photos .bottom img{
+        width: 162.25px;
+        height: 167.03px;
+    }
+    
+    .contents .clients .clients-photos .photos-container:nth-child(2n-2) {
+        margin-top: 80px;
+    }
+    
+    .contents .clients .clients-photos .bottom {
+       margin-top: -14px;
+    }
+    
+    /*-------------------leader-phrase---------------------*/
+    
+    .contents .leader-phrase {
+        margin-top: 20%;
+    }
+    
+    .contents .leader-phrase .tittle {
+        width: 95%;
+    }
+    
+    .contents .leader-phrase .leader-card {
+        margin-top: 27px;
+    }
 }

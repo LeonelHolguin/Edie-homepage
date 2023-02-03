@@ -135,3 +135,79 @@
 .created-by a:hover {
     color: aquamarine;
 }
+
+
+/*-----------------MEADIA QUERIES--------------*/
+
+@media(max-width: 767px) {
+    .contact-page {
+        padding-top: 10%;
+        margin-top: 10%;
+        padding-bottom: 20px;
+    }
+    
+    .contact-page .contents {
+        flex-direction: column;
+        margin-top: 0;
+        margin-left: 0%;
+    }
+
+    /*---------------------footer navbar---------------*/
+
+    .contact-page .contents .footer-navbar .footer-menu{
+        padding-left: 7%;
+    }
+    
+    /*--------------------Social media----------------*/
+    
+    .contact-page .contents .social-media {
+        margin-left: 7%;
+        margin-top: 64px;
+    }
+    
+    /*------------------contact section----------------*/
+    
+    .contact-page .contents .contact-section{
+        margin-left: 7%;
+        margin-top: 20%;
+    }
+    
+    .contact-page .contents .contact-section p {
+        font-size: 10px;
+        line-height: 15px;
+        margin-bottom: 0.5rem;
+    }
+    
+    .contact-page .contents .contact-section .contact-form input{
+        width: 291px;
+        height: 47px;
+        padding-left: 1.5rem;
+    }
+    
+    .contact-page .contents .contact-section .contact-form input,
+    .contact-page .contents .contact-section .contact-form button {
+        font-size: 14px;
+        line-height: 21px;
+    }
+    
+    .contact-page .contents .contact-section .contact-form button {
+        width: 71px;
+        height: 39px;
+        position: relative;
+        right: 0;
+        left: 242px;
+        bottom: 44px;
+    }
+    
+    .contact-page .contents .contact-section .contact-form button:hover {
+        background-color: #247eb3;
+        color: #FFFFFF;
+        cursor: pointer;
+    }
+    
+    /*-----------------created by----------------------*/
+    
+    .created-by{
+        margin-top: 20%;
+    }
+}
