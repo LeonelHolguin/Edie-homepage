@@ -10,3 +10,7 @@ figure {
     margin: 0;
 }
 
+html {
+    /*Para una mejor experiencia a la hora de hacer scroll*/
+    scroll-behavior: smooth;
+}

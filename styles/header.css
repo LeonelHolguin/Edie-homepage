@@ -104,6 +104,8 @@
     width: 94vw;
     height: 53vh;
     border-radius: 18px;
+    object-fit: cover;
+    object-position: top;
 }
 
 /*----------------------page info----------------*/
@@ -237,6 +239,10 @@
         gap: 0;
         margin: 0;
         padding: 0;
+    }
+
+    .header-page .navbar{
+        transition: all 0.5s ease;
     }
     
     .header-page .navbar .menu .item{
